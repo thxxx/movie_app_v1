@@ -10,11 +10,11 @@
     <>  
     <HashRouter>
       <Navigation />
-      <Route path="/" exact={true} component={Home} />
-      <Route path="/about" component={About} />
-      <Route path="/movie/:id" component={Detail} />
+    <Route path="/" exact={true} component={Home} />  `{/*exact는 /가 들어갔다고 다 Home으로 가지는걸 막기위해 */}`
+        <Route path="/about" component={About} />
+        <Route path="/movie/:id" component={Detail} />
     </HashRouter>
-    <footer> </footer>
+    <footer id="footer"> sd </footer>
     </> )
   }
 
